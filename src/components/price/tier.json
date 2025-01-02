@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_price_tiers",
+  "info": {
+    "displayName": "Tier",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "features": {
+      "displayName": "Feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "price.feature"
+    },
+    "usageLimit": {
+      "displayName": "UsageLimit",
+      "type": "component",
+      "repeatable": false,
+      "component": "usage-limit.usage-limit"
+    },
+    "frequencies": {
+      "displayName": "FrequencyPricing",
+      "type": "component",
+      "repeatable": true,
+      "component": "price.frequency-pricing"
+    }
+  }
+}

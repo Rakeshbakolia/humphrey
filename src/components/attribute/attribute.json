@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_attribute_attributes",
+  "info": {
+    "displayName": "Attribute",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "attributeId": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "attributeName": {
+      "type": "string",
+      "required": true
+    },
+    "attributeType": {
+      "type": "enumeration",
+      "enum": [
+        "LIST",
+        "FREETEXT"
+      ]
+    },
+    "comparable": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

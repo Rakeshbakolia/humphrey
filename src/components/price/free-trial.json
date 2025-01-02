@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_price_free_trials",
+  "info": {
+    "displayName": "FreeTrial",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "durationDays": {
+      "type": "integer"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "price.feature"
+    }
+  }
+}

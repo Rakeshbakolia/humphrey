@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_price_frequency_pricings",
+  "info": {
+    "displayName": "FrequencyPricing",
+    "icon": "cloud"
+  },
+  "options": {},
+  "attributes": {
+    "frequency": {
+      "type": "enumeration",
+      "enum": [
+        "MONTHLY",
+        "YEARLY"
+      ]
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "unit": {
+      "type": "enumeration",
+      "enum": [
+        "USER",
+        "GB"
+      ]
+    }
+  }
+}

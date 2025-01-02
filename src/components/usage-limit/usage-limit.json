@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_usage_limit_usage_limits",
+  "info": {
+    "displayName": "UsageLimit",
+    "icon": "rocket"
+  },
+  "options": {},
+  "attributes": {
+    "included": {
+      "displayName": "Include",
+      "type": "component",
+      "repeatable": true,
+      "component": "usage-limit.include"
+    },
+    "overage": {
+      "displayName": "Overage",
+      "type": "component",
+      "repeatable": true,
+      "component": "usage-limit.overage"
+    }
+  }
+}

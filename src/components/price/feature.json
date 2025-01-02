@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_price_features",
+  "info": {
+    "displayName": "Feature",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "available": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

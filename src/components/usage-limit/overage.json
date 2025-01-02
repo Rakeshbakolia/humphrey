@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_usage_limit_overages",
+  "info": {
+    "displayName": "Overage",
+    "icon": "collapse"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "pricePerUnit": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
